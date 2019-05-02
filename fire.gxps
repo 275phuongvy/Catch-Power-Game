@@ -1,0 +1,27 @@
+// fire.gxps
+
+start particle_system
+
+image color = Objects\fireball.bmp
+image alpha = Objects\fireball_fa.bmp
+emitter type = circle
+emitter radius = 2
+attached = false
+direction type = fixed
+direction x = 0
+direction y = 1
+direction z = 0
+velocity type = fixed
+velocity min = 5
+velocity max = 7
+transparency type = fade
+transparency start = 1.0
+transparency end = 0.5
+size type = lifetime_variable
+size start = 5
+size end = 2
+population = 50
+lifespan min = 0.6
+lifespan max = 0.9
+
+end
